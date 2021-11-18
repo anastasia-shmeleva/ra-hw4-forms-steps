@@ -18,6 +18,7 @@ export default function Form(props) {
             className='form__date-input' 
             name='date'
             type='date'
+            value={form.date}
             onChange={onFieldChange}
           />
         </div>
@@ -28,6 +29,7 @@ export default function Form(props) {
             className='form__distance-input' 
             name='distance'
             type='number'
+            value={form.distance}
             onChange={onFieldChange}
           />
         </div>

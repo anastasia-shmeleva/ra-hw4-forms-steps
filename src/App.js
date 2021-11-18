@@ -42,7 +42,7 @@ function App() {
       ]);
     }
 
-    setForm({ date: '', distance: '' }) //не очищает поле после добавления записи
+    setForm({ date: '', distance: '' })
   }
 
   function onFieldChange({ target }) {
